@@ -3,7 +3,7 @@ body{
     background-size: cover;
 }
 
-!spinning {
+#spinning {
   width: 100px;
   height: 100px;
   background-color: #0CB1C4;
