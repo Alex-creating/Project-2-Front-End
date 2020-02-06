@@ -14,9 +14,7 @@ pipeline {
         }
         }
         }
-        		stage('---SSH into VM---') {
-        		steps {
-        		
+       		
         
     }
 }
