@@ -90,6 +90,6 @@ Add further security features such as not hard-coding the database login details
 
 <a name="author"></a>
 ## Authors
-Alexander Russo
+Alexander Russo,
 Zohaib Zahid
 
