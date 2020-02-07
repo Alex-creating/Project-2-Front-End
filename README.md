@@ -35,7 +35,7 @@ Our team created a Jenkins pipeline which would test and run the development bra
 <a name="architecture"></a>
 ## Pipeline Architecture
 
-![pipeline](https://imgur.com/a/mHBnJ4B) 
+![pipeline](https://i.imgur.com/gNwsccQ.jpg) 
 
 The above diagram shows the pipeline used to deliver continuous integration. Any changes in the source code are pushed to the dev branch on GitHub. A webhook from Jenkins pulls in the changed project and begins the pipeline as determined by the Jenkinsfile. Jenkins will test the unit and integration tests with a combination of JUnit and Mockito tests, then run mvn package and deploy, storing it in Nexus. Jenkins will SSH into an EC2 instance for the front and backend and run a pre-made script. This script pulls down the latest image from Docker Hub and runs it on a test environment. Selenium tests will run, upon them passing the application will be deployed to the live environment. 
 
@@ -66,7 +66,7 @@ When working with AWS, the master user account was never used, only an IAM user,
 
 No password were used in scripts as this is insecure. The database can only be accessed by the backend, there is no unnecessary access from other parts of the application.
 
-![security](https://imgur.com/a/zSmCUGc)
+![security](https://i.imgur.com/rGTWkKS.png)
 
 <a name="technology"></a>
 ### Technology used
@@ -92,3 +92,4 @@ Add further security features such as not hard-coding the database login details
 ## Authors
 Alexander Russo
 Zohaib Zahid
+
