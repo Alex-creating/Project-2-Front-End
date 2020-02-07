@@ -71,15 +71,15 @@ No password were used in scripts as this is insecure. The database can only be a
 <a name="technology"></a>
 ### Technology used
 
-H2 Database - Database
-Java - Source Code
-Jenkins - CI Server
-Maven - Dependency Management
-JUnit, Selenium, SonarQube - Testing
-Surefire - Test Report
-Nexus and Docker Hub – Image Storage
-GitHub - Version Control System
-Trello - Project Tracking
+H2 Database - Database,
+Java - Source Code,
+Jenkins - CI Server,
+Maven - Dependency Management,
+JUnit, Selenium, SonarQube - Testing,
+Surefire - Test Report,
+Nexus and Docker Hub – Image Storage,
+GitHub - Version Control System,
+Trello - Project Tracking,
 Amazon Web Service - Live Environment
 
 
