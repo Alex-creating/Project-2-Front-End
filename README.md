@@ -39,7 +39,7 @@ Our team created a Jenkins pipeline which would test and run the development bra
 
 The above diagram shows the pipeline used to deliver continuous integration. Any changes in the source code are pushed to the dev branch on GitHub. A webhook from Jenkins pulls in the changed project and begins the pipeline as determined by the Jenkinsfile. Jenkins will test the unit and integration tests with a combination of JUnit and Mockito tests, then run mvn package and deploy, storing it in Nexus. Jenkins will SSH into an EC2 instance for the front and backend and run a pre-made script. This script pulls down the latest image from Docker Hub and runs it on a test environment. Selenium tests will run, upon them passing the application will be deployed to the live environment. 
 
-![jenkins] (https://i.imgur.com/SMuboRC.jpg)
+![jenkins](https://i.imgur.com/SMuboRC.jpg)
 
 
 <a name="testing"></a>
